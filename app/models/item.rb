@@ -5,6 +5,7 @@ class Item
   include Mongoid::Timestamps
 
   # Fields
+  field :master_id,    type: String
   field :title,        type: String
   field :description,  type: String
   field :status,       type: String
